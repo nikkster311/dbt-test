@@ -58,7 +58,7 @@
             document.getElementsByClassName('customers-container')[0].innerHTML = customers.map(user => 
                 `<div class="card-wrapper">
                 <div class="logo-wrapper"><img src=${user.img}></div>
-                <div>${user.name}</div>
+                <h3>${user.name}</h3>
                 <a class="btn" href=${user.url}>Visit ${user.name}</a>
                 </div>`
             ).join('')
